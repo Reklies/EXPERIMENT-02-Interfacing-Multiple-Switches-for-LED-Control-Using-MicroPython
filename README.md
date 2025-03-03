@@ -111,9 +111,20 @@ while True:
 
 FIGURE-02: CIRCUIT CONNECTION
 
+![Screenshot 2025-03-03 111813](https://github.com/user-attachments/assets/8a8f28ca-b662-48ac-8e2d-8b558e671673)
+
 FIGURE-03: CODE EXECUTION OUTPUT
+![Screenshot 2025-03-03 111831](https://github.com/user-attachments/assets/6d99d75c-44a3-45a5-a33b-29f5a7013472)
+
 
 FIGURE-04: LED STATUS BASED ON SWITCH INPUTS
+
+![Screenshot 2025-03-03 111322](https://github.com/user-attachments/assets/469823fa-4ec9-4c6e-b5ff-3c67f445f6b3)
+
+![Screenshot 2025-03-03 112016](https://github.com/user-attachments/assets/5d39db11-c254-4a92-8c38-7fe5b337f2e0)
+
+
+
 ## TIMING DIGAGRAM 
 
 
