@@ -123,15 +123,6 @@ FIGURE-04: LED STATUS BASED ON SWITCH INPUTS
 
 ![Screenshot 2025-03-03 112016](https://github.com/user-attachments/assets/5d39db11-c254-4a92-8c38-7fe5b337f2e0)
 
-
-
-## TIMING DIGAGRAM 
-
-
-UPLOAD YOUR TIMING DIGARAM HERE 
-
-
-
 ## RESULTS
 
 The multiple switches connected to the Raspberry Pi Pico successfully controlled the LEDs based on their states, confirming the proper interfacing of digital inputs and outputs.
