@@ -64,9 +64,44 @@ Connect LED 2 to GP17 via a 330Ω resistor.
 Connect the other terminals of the switches to GND.
 
 ## PROGRAM (MicroPython)
-''''
+```
+from machine import Pin
+from time import sleep
 
+switch1 = Pin(3, Pin.IN)
+switch2 = Pin(2, Pin.IN)
 
+led2 = Pin(15, Pin.OUT)
+led1 = Pin(16, Pin.OUT)
+
+while True:
+    sw2_state = switch2.value()
+    sw1_state = switch1.value()
+
+    print("Switch 1 state:", sw1_state)
+    print("Switch 2 state:", sw2_state)
+
+    if sw2_state == 1 and sw1_state == 1:
+        led1.value(0)
+        led2.value(0)
+    elif sw2_state == 1:
+        led2.value(1)
+        led1.value(0) 
+        sleep(0.5)
+        led1.value(0)
+        led2.value(0)
+    elif sw1_state == 1:
+        led1.value(1)
+        led2.value(0)  
+        sleep(0.5)
+        led1.value(0)
+        led2.value(0)
+    else:
+        led1.value(0)
+        led2.value(0)
+
+    sleep(0.5)
+```
 
  
 
